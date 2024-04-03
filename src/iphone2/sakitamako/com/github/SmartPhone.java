@@ -1,6 +1,6 @@
 package iphone2.sakitamako.com.github;
 
-public class SmartPhone implements Mp3Player {
+public class SmartPhone extends Phone implements Mp3Player, NewFunction {
 	public void play() {
 		System.out.println("再生");
 	}
